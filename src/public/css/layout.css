@@ -1,0 +1,30 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #5a4d42;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0eae4;
+    color: #5a4d42;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 40px 0;
+}
+
+footer small {
+    font-size: 13px;
+    color: #aaa;
+}

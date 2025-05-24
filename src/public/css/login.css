@@ -1,0 +1,85 @@
+body {
+    background-color: #f0e6dd;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-wrapper {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.brand {
+    font-size: 28px;
+    color: #5f4c3b;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 22px;
+    color: #5f4c3b;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    color: #5f4c3b;
+    margin-bottom: 8px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    border-radius: 6px;
+    color: #5f4c3b;
+}
+
+::placeholder {
+    color: #d2bfae;
+}
+
+button {
+    width: 120px;
+    padding: 10px;
+    background-color: #8c6b50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #7a5943;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.center {
+    text-align: center;
+}
